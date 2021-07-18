@@ -16,12 +16,59 @@
 /* HEADER */
 
 .header{
+    min-width: 95%;
+    min-height:10vh;
     display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar{
+    min-width: 20%;
 }
 
 .nav-bar ul{
     display:flex;
     list-style-type: none;
+    justify-content: space-around;
 }
 
 /* END HEADER */
+
+/* MAIN */
+
+
+.main{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 150vh;
+}
+
+.main-text{
+    margin:40px;
+}
+
+/* section{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+} */
+
+
+
+/* END MAIN */
+
+/* FOOTER */
+
+.footer{
+    min-height:8vh;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+
+
+/* END FOOTER */
