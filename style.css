@@ -41,20 +41,43 @@
 .main{
     display:flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
-    text-align: center;
-    min-height: 150vh;
+    justify-content: flex-start;
+    align-items: center;
+    
+    min-height: 300vh;
 }
 
-.main-text{
+.main-title{
     margin:40px;
+    margin-top:10%;
+    margin-bottom:30%;
+}
+.main-title > h1{
+    font-size: 4rem ;
 }
 
-/* section{
+.main-content{
+    max-width: 80%;
+    height:150vh;
     display:flex;
     flex-flow:column nowrap;
-    justify-content: center;
-} */
+    justify-content: space-around;
+}
+
+section{
+    text-align: center;
+    /* max-width: 70%; */
+}
+
+.section1-detail, .section2-detail{
+    display:flex;
+    /* margin-bottom:10%; */
+}
+
+.section1{
+    /* margin-top:10%; */
+}
+
 
 
 
